@@ -19,8 +19,8 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://aiml.wiki/` + encodeURI(path as string)
-					// `https://www.highrevenuegate.com/jajkh4r5jw?key=5ef75d40cfbc2ec67c8a10f78715c4cc`
+					// `https://aiml.wiki/` + encodeURI(path as string)
+					 `https://www.highrevenuegate.com/jajkh4r5jw?key=5ef75d40cfbc2ec67c8a10f78715c4cc`
 				}`,
 			},
 		};
